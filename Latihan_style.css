@@ -1,0 +1,65 @@
+.navbar .list1 .list {
+margin:0 30px;
+padding :0;
+float: left;
+}
+
+.navbar{
+margin: auto;
+text-align: center;
+width: 100%;
+font-family: arial;
+
+}
+
+.navbar .list1{
+background:darkgreen;
+padding: 0 20px;
+list-style: none;
+position: relative;
+display: inline-table;
+width: 100%;
+
+}
+
+.navbar .list1 .list :hover{
+background-color: green;
+}
+
+.navbar .list1 .list :hover a{
+color: #000;
+}
+
+.navbar .list1 .list a{
+display: block;
+padding: 25px;
+color: white;
+text-decoration: none;
+}
+
+.kotak, .kotak1{
+background: #49ae5f;
+width: fit-content;
+display: inline-block;
+margin-inline-end: 2%;
+padding: 10px;
+color: white;
+text-decoration: none;
+}
+
+
+
+
+.container{
+    display: flex;
+}
+img{
+    height: 250px;
+    
+}
+
+p{
+   margin-left: 20px;
+   margin-top: 0;
+   font-size: large;
+}
